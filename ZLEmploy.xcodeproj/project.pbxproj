@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FF988BA16D1F86400F57FD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF988B916D1F86400F57FD9 /* UIKit.framework */; };
+		0FF988BC16D1F86400F57FD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF988BB16D1F86400F57FD9 /* Foundation.framework */; };
+		0FF988BE16D1F86400F57FD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF988BD16D1F86400F57FD9 /* CoreGraphics.framework */; };
+		0FF988C416D1F86400F57FD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FF988C216D1F86400F57FD9 /* InfoPlist.strings */; };
+		0FF988C616D1F86400F57FD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF988C516D1F86400F57FD9 /* main.m */; };
+		0FF988CA16D1F86500F57FD9 /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF988C916D1F86500F57FD9 /* TestAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FF988B516D1F86400F57FD9 /* ZLEmploy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLEmploy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FF988B916D1F86400F57FD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0FF988BB16D1F86400F57FD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FF988BD16D1F86400F57FD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0FF988C116D1F86400F57FD9 /* ZLEmploy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZLEmploy-Info.plist"; sourceTree = "<group>"; };
+		0FF988C316D1F86400F57FD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0FF988C516D1F86400F57FD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FF988C716D1F86400F57FD9 /* ZLEmploy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZLEmploy-Prefix.pch"; sourceTree = "<group>"; };
+		0FF988C816D1F86500F57FD9 /* TestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAppDelegate.h; sourceTree = "<group>"; };
+		0FF988C916D1F86500F57FD9 /* TestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FF988B216D1F86400F57FD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF988BA16D1F86400F57FD9 /* UIKit.framework in Frameworks */,
+				0FF988BC16D1F86400F57FD9 /* Foundation.framework in Frameworks */,
+				0FF988BE16D1F86400F57FD9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FF988AA16D1F86400F57FD9 = {
+			isa = PBXGroup;
+			children = (
+				0FF988BF16D1F86400F57FD9 /* ZLEmploy */,
+				0FF988B816D1F86400F57FD9 /* Frameworks */,
+				0FF988B616D1F86400F57FD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FF988B616D1F86400F57FD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FF988B516D1F86400F57FD9 /* ZLEmploy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FF988B816D1F86400F57FD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FF988B916D1F86400F57FD9 /* UIKit.framework */,
+				0FF988BB16D1F86400F57FD9 /* Foundation.framework */,
+				0FF988BD16D1F86400F57FD9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FF988BF16D1F86400F57FD9 /* ZLEmploy */ = {
+			isa = PBXGroup;
+			children = (
+				0FF988C816D1F86500F57FD9 /* TestAppDelegate.h */,
+				0FF988C916D1F86500F57FD9 /* TestAppDelegate.m */,
+				0FF988C016D1F86400F57FD9 /* Supporting Files */,
+			);
+			path = ZLEmploy;
+			sourceTree = "<group>";
+		};
+		0FF988C016D1F86400F57FD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FF988C116D1F86400F57FD9 /* ZLEmploy-Info.plist */,
+				0FF988C216D1F86400F57FD9 /* InfoPlist.strings */,
+				0FF988C516D1F86400F57FD9 /* main.m */,
+				0FF988C716D1F86400F57FD9 /* ZLEmploy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FF988B416D1F86400F57FD9 /* ZLEmploy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FF988CD16D1F86500F57FD9 /* Build configuration list for PBXNativeTarget "ZLEmploy" */;
+			buildPhases = (
+				0FF988B116D1F86400F57FD9 /* Sources */,
+				0FF988B216D1F86400F57FD9 /* Frameworks */,
+				0FF988B316D1F86400F57FD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLEmploy;
+			productName = ZLEmploy;
+			productReference = 0FF988B516D1F86400F57FD9 /* ZLEmploy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FF988AC16D1F86400F57FD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Test;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = alex;
+			};
+			buildConfigurationList = 0FF988AF16D1F86400F57FD9 /* Build configuration list for PBXProject "ZLEmploy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0FF988AA16D1F86400F57FD9;
+			productRefGroup = 0FF988B616D1F86400F57FD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FF988B416D1F86400F57FD9 /* ZLEmploy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FF988B316D1F86400F57FD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF988C416D1F86400F57FD9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FF988B116D1F86400F57FD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF988C616D1F86400F57FD9 /* main.m in Sources */,
+				0FF988CA16D1F86500F57FD9 /* TestAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0FF988C216D1F86400F57FD9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FF988C316D1F86400F57FD9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FF988CB16D1F86500F57FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0FF988CC16D1F86500F57FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FF988CE16D1F86500F57FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZLEmploy/ZLEmploy-Prefix.pch";
+				INFOPLIST_FILE = "ZLEmploy/ZLEmploy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0FF988CF16D1F86500F57FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZLEmploy/ZLEmploy-Prefix.pch";
+				INFOPLIST_FILE = "ZLEmploy/ZLEmploy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FF988AF16D1F86400F57FD9 /* Build configuration list for PBXProject "ZLEmploy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF988CB16D1F86500F57FD9 /* Debug */,
+				0FF988CC16D1F86500F57FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FF988CD16D1F86500F57FD9 /* Build configuration list for PBXNativeTarget "ZLEmploy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF988CE16D1F86500F57FD9 /* Debug */,
+				0FF988CF16D1F86500F57FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FF988AC16D1F86400F57FD9 /* Project object */;
+}
