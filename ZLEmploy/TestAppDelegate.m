@@ -15,6 +15,8 @@
 #import "JobGuideViewController.h"
 #import "CusTabBarController.h"
 
+
+
 @implementation TestAppDelegate
 
 - (void)dealloc
@@ -61,8 +63,8 @@
     
     [tabbar release];
     
-    
-    
+     
+       
     
     [self.window makeKeyAndVisible];
     return YES;

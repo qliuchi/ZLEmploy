@@ -247,6 +247,11 @@
 		0FF98AB716D1FEB100F57FD9 /* RealTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF98AB616D1FEB100F57FD9 /* RealTimeViewController.m */; };
 		0FF98ABA16D1FEBF00F57FD9 /* SearchSalaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF98AB916D1FEBF00F57FD9 /* SearchSalaryViewController.m */; };
 		0FF98ABD16D1FECA00F57FD9 /* JobGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF98ABC16D1FECA00F57FD9 /* JobGuideViewController.m */; };
+		0FF98B0116D222AF00F57FD9 /* URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF98AFE16D222AF00F57FD9 /* URLEncode.m */; };
+		0FF98B0216D222AF00F57FD9 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF98B0016D222AF00F57FD9 /* XMLReader.m */; };
+		0FF98B1216D2276A00F57FD9 /* DataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF98B1116D2276900F57FD9 /* DataRequest.m */; };
+		0FF98B1C16D22BE200F57FD9 /* NSString+getMD5String.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF98B1B16D22BE200F57FD9 /* NSString+getMD5String.m */; };
+		0FF98B2B16D232AA00F57FD9 /* JobGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF98B2A16D232AA00F57FD9 /* JobGuideView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -501,6 +506,16 @@
 		0FF98AB916D1FEBF00F57FD9 /* SearchSalaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchSalaryViewController.m; sourceTree = "<group>"; };
 		0FF98ABB16D1FECA00F57FD9 /* JobGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobGuideViewController.h; sourceTree = "<group>"; };
 		0FF98ABC16D1FECA00F57FD9 /* JobGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobGuideViewController.m; sourceTree = "<group>"; };
+		0FF98AFD16D222AF00F57FD9 /* URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLEncode.h; sourceTree = "<group>"; };
+		0FF98AFE16D222AF00F57FD9 /* URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLEncode.m; sourceTree = "<group>"; };
+		0FF98AFF16D222AF00F57FD9 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		0FF98B0016D222AF00F57FD9 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		0FF98B1016D2276900F57FD9 /* DataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataRequest.h; sourceTree = "<group>"; };
+		0FF98B1116D2276900F57FD9 /* DataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataRequest.m; sourceTree = "<group>"; };
+		0FF98B1A16D22BE100F57FD9 /* NSString+getMD5String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+getMD5String.h"; sourceTree = "<group>"; };
+		0FF98B1B16D22BE200F57FD9 /* NSString+getMD5String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+getMD5String.m"; sourceTree = "<group>"; };
+		0FF98B2916D232AA00F57FD9 /* JobGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobGuideView.h; sourceTree = "<group>"; };
+		0FF98B2A16D232AA00F57FD9 /* JobGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobGuideView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -835,6 +850,14 @@
 		0FF98A9916D1F91200F57FD9 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
+				0FF98AFD16D222AF00F57FD9 /* URLEncode.h */,
+				0FF98AFE16D222AF00F57FD9 /* URLEncode.m */,
+				0FF98AFF16D222AF00F57FD9 /* XMLReader.h */,
+				0FF98B0016D222AF00F57FD9 /* XMLReader.m */,
+				0FF98B1016D2276900F57FD9 /* DataRequest.h */,
+				0FF98B1116D2276900F57FD9 /* DataRequest.m */,
+				0FF98B1A16D22BE100F57FD9 /* NSString+getMD5String.h */,
+				0FF98B1B16D22BE200F57FD9 /* NSString+getMD5String.m */,
 			);
 			name = SDK;
 			path = ZLEmploy/SDK;
@@ -843,6 +866,7 @@
 		0FF98A9A16D1F91200F57FD9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0FF98B2816D2326A00F57FD9 /* JobGuideView */,
 			);
 			name = View;
 			path = ZLEmploy/View;
@@ -874,6 +898,15 @@
 				0FF98AAD16D1FBDF00F57FD9 /* CusTabBarController.m */,
 			);
 			name = TabBar;
+			sourceTree = "<group>";
+		};
+		0FF98B2816D2326A00F57FD9 /* JobGuideView */ = {
+			isa = PBXGroup;
+			children = (
+				0FF98B2916D232AA00F57FD9 /* JobGuideView.h */,
+				0FF98B2A16D232AA00F57FD9 /* JobGuideView.m */,
+			);
+			name = JobGuideView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1175,6 +1208,11 @@
 				0FF98AB716D1FEB100F57FD9 /* RealTimeViewController.m in Sources */,
 				0FF98ABA16D1FEBF00F57FD9 /* SearchSalaryViewController.m in Sources */,
 				0FF98ABD16D1FECA00F57FD9 /* JobGuideViewController.m in Sources */,
+				0FF98B0116D222AF00F57FD9 /* URLEncode.m in Sources */,
+				0FF98B0216D222AF00F57FD9 /* XMLReader.m in Sources */,
+				0FF98B1216D2276A00F57FD9 /* DataRequest.m in Sources */,
+				0FF98B1C16D22BE200F57FD9 /* NSString+getMD5String.m in Sources */,
+				0FF98B2B16D232AA00F57FD9 /* JobGuideView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1280,6 +1318,7 @@
 				0FF988CF16D1F86500F57FD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

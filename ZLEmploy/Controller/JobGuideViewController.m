@@ -7,6 +7,7 @@
 //
 
 #import "JobGuideViewController.h"
+#import "JobGuideView.h"
 
 @interface JobGuideViewController ()
 
@@ -22,11 +23,43 @@
     }
     return self;
 }
+-(void)viewWillAppear:(BOOL)animated
+{
+    self.navigationController.navigationBarHidden = YES;
+    UIImageView *imgView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 20, 320, 44)];
+    imgView.image = [UIImage imageNamed:@"navigationbar_bg.png"];
+    [self.navigationController.view addSubview:imgView];
+    
+    
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(110, 0, 100, 44)];
+    label.text = @"求职指导";
+    label.backgroundColor = [UIColor clearColor];
+    [imgView addSubview:label];
+    [label release];
+    [imgView release];
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+-(void)viewWillDisappear:(BOOL)animated
+{
+    
+}
+
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+	
+    
+
+
 }
 
 - (void)viewDidUnload
