@@ -8,6 +8,13 @@
 
 #import "TestAppDelegate.h"
 
+#import "SearchJobViewController.h"
+#import "MyzlViewController.h"
+#import "RealTimeViewController.h"
+#import "SearchSalaryViewController.h"
+#import "JobGuideViewController.h"
+#import "CusTabBarController.h"
+
 @implementation TestAppDelegate
 
 - (void)dealloc
@@ -21,6 +28,42 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    //searchJobView
+    SearchJobViewController *searchJobViewController = [SearchJobViewController new];
+    UINavigationController *searchJobNavi = [[UINavigationController alloc]initWithRootViewController:searchJobViewController];
+    [searchJobViewController release];
+    //myzlView
+    MyzlViewController *myzlViewController = [MyzlViewController new];
+    UINavigationController *myzlNavi = [[UINavigationController alloc]initWithRootViewController:myzlViewController];
+    [myzlViewController release];
+    //realTimeView
+    RealTimeViewController *realTimeViewController = [RealTimeViewController new];
+    UINavigationController *realTimeNavi = [[UINavigationController alloc]initWithRootViewController:realTimeViewController];
+    [realTimeViewController release];
+    //searchSalary
+    SearchSalaryViewController *searchSalaryViewController = [SearchSalaryViewController new];
+    UINavigationController *searchSalaryNavi = [[UINavigationController alloc]initWithRootViewController:searchSalaryViewController];
+    [searchSalaryViewController release];
+    //jobGuide
+    JobGuideViewController *jobGuideViewController = [JobGuideViewController new];
+    UINavigationController *jobGuideNavi = [[UINavigationController alloc]initWithRootViewController:jobGuideViewController];
+    [jobGuideViewController release];
+    
+    NSArray *arr = [NSArray arrayWithObjects:searchJobNavi,myzlNavi,realTimeNavi,searchSalaryNavi,jobGuideNavi, nil];
+    
+    
+    CusTabBarController *tabbar = [[CusTabBarController alloc]init];
+    tabbar.viewControllers = arr;
+    tabbar.selectedIndex = 0;
+    
+    self.window.rootViewController = tabbar;
+    
+    [tabbar release];
+    
+    
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
