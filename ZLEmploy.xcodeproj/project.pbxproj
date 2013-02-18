@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FEB909116D23D2200D0EE6C /* SearchJobView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB909016D23D2200D0EE6C /* SearchJobView.m */; };
 		0FF988BA16D1F86400F57FD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF988B916D1F86400F57FD9 /* UIKit.framework */; };
 		0FF988BC16D1F86400F57FD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF988BB16D1F86400F57FD9 /* Foundation.framework */; };
 		0FF988BE16D1F86400F57FD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF988BD16D1F86400F57FD9 /* CoreGraphics.framework */; };
@@ -255,6 +256,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FEB908F16D23D2200D0EE6C /* SearchJobView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchJobView.h; sourceTree = SOURCE_ROOT; };
+		0FEB909016D23D2200D0EE6C /* SearchJobView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchJobView.m; sourceTree = SOURCE_ROOT; };
 		0FF988B516D1F86400F57FD9 /* ZLEmploy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLEmploy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF988B916D1F86400F57FD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0FF988BB16D1F86400F57FD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -532,6 +535,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FEB908D16D23CF500D0EE6C /* SearchJob */ = {
+			isa = PBXGroup;
+			children = (
+				0FEB908F16D23D2200D0EE6C /* SearchJobView.h */,
+				0FEB909016D23D2200D0EE6C /* SearchJobView.m */,
+			);
+			name = SearchJob;
+			sourceTree = "<group>";
+		};
 		0FF988AA16D1F86400F57FD9 = {
 			isa = PBXGroup;
 			children = (
@@ -866,6 +878,7 @@
 		0FF98A9A16D1F91200F57FD9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0FEB908D16D23CF500D0EE6C /* SearchJob */,
 				0FF98B2816D2326A00F57FD9 /* JobGuideView */,
 			);
 			name = View;
@@ -1213,6 +1226,7 @@
 				0FF98B1216D2276A00F57FD9 /* DataRequest.m in Sources */,
 				0FF98B1C16D22BE200F57FD9 /* NSString+getMD5String.m in Sources */,
 				0FF98B2B16D232AA00F57FD9 /* JobGuideView.m in Sources */,
+				0FEB909116D23D2200D0EE6C /* SearchJobView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1283,6 +1297,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZLEmploy/ZLEmploy-Prefix.pch";
 				INFOPLIST_FILE = "ZLEmploy/ZLEmploy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1294,6 +1309,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZLEmploy/ZLEmploy-Prefix.pch";
 				INFOPLIST_FILE = "ZLEmploy/ZLEmploy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
